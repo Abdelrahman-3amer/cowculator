@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tup-Yx-g9d">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="PLW-12-Zi3">
+            <objects>
+                <viewController storyboardIdentifier="SignUpVC" id="Tup-Yx-g9d" customClass="SignUpVC" customModule="FinalProjectBM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rAU-vt-NJu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k9n-xp-dGW">
+                                <rect key="frame" x="0.0" y="45" width="393" height="44"/>
+                                <items>
+                                    <navigationItem id="Ehs-uO-7ey"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Speedo Transfer " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxd-dP-GO7">
+                                <rect key="frame" x="66" y="236" width="261" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="Z6G-r9-xaq"/>
+                                    <constraint firstAttribute="height" constant="29" id="fVC-Ym-Ndo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fyf-xM-zuj"/>
+                        <color key="backgroundColor" red="1" green="0.95294117647058818" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nxd-dP-GO7" firstAttribute="top" secondItem="k9n-xp-dGW" secondAttribute="bottom" constant="229" id="7nZ-aR-nOZ"/>
+                            <constraint firstItem="nxd-dP-GO7" firstAttribute="leading" secondItem="Fyf-xM-zuj" secondAttribute="leading" constant="66" id="fEb-VE-mFE"/>
+                            <constraint firstItem="nxd-dP-GO7" firstAttribute="centerX" secondItem="Fyf-xM-zuj" secondAttribute="centerX" id="iSz-0p-f5w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="DiZ-yr-ONO"/>
+                    <connections>
+                        <outlet property="backGroundView" destination="rAU-vt-NJu" id="x3I-32-S4g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBe-KO-Fvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609.9236641221373" y="-63.380281690140848"/>
+        </scene>
+    </scenes>
+</document>
